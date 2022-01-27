@@ -8,7 +8,7 @@ class BedWarsPlayer():
     nickname: str,
     rank: Rank,
     json_data: dict,
-    stats: Stats):
+    stats: Stats_total):
         self.nickname = nickname
         self.rank = rank
         self.json_data = json_data
