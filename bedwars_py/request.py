@@ -42,6 +42,6 @@ def Getbedwarsplayer(username: str,key: str):
         eight_two=Stats_eight_two(json_data=json_data,mode=BedWarsModeType.eight_two),
         four_three=Stats_four_three(json_data=json_data,mode=BedWarsModeType.four_three),
         four_four=Stats_four_four(json_data=json_data,mode=BedWarsModeType.four_four),
-        two_four=Stats_four_four(json_data=json_data,mode=BedWarsModeType.two_four)
+        two_four=Stats_two_four(json_data=json_data,mode=BedWarsModeType.two_four)
     )
     return BedWarsPlayer(nickname=data["player"]["displayname"],rank=ranks[rank],json_data=data,stats=data_stats)
